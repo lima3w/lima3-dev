@@ -4,6 +4,9 @@ title = 'My New Hugo Site'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
 
+[[module.imports]]
+path = "github.com/luizdepra/hugo-coder"
+
 [pagination]
 pagerSize = 20
 
