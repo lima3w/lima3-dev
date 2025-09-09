@@ -1,6 +1,6 @@
 # Configure Cloudflare Worker
 
-name = "lima3-dev-worker"
+name = "lima3-dev"
 compatibility_date = "2025-09-01"
 
 [assets]
