@@ -2,7 +2,7 @@
 draft = false
 date = 2026-07-21T00:00:00-05:00
 title = 'Getting a little more organized'
-authors = ["Zack Lewis"]
+authors = ["Zack"]
 disableComments = true
 +++
 

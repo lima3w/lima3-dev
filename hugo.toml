@@ -1,5 +1,5 @@
-languageCode = 'en-us'
-title = "Zack's dev site"
+locale = 'en-us'
+title = "lima3.dev"
 
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
@@ -7,17 +7,13 @@ defaultcontentlanguage = "en"
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "Zack"
-
 [markup.highlight]
 style = "github-dark"
 
 [params]
-  author = "Zack Lewis"
-  info = "Homelab Enthusiast"
-  description = "Zack's dev site"
+  author = "lima3.dev"
+  info = "Homelab notes, experiments, and projects"
+  description = "Homelab notes, experiments, and projects by Zack."
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.png"
   #gravatar = "john.doe@example.com"

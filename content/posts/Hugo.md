@@ -2,7 +2,7 @@
 draft = false
 date = 2025-04-10T05:59:03Z
 title = 'Hugo'
-authors = ["Zack Lewis"]
+authors = ["Zack"]
 disableComments = true
 +++
 
