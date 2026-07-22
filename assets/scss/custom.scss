@@ -1,0 +1,38 @@
+.recent-posts {
+  max-width: 72rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+
+  h2 {
+    margin: 0 0 1.5rem;
+    text-align: center;
+  }
+}
+
+.recent-posts-list {
+  border-top: 1px solid currentColor;
+}
+
+.recent-post {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid currentColor;
+
+  h3 {
+    margin: 0 0 0.35rem;
+  }
+
+  time {
+    display: block;
+    font-size: 1.4rem;
+    opacity: 0.75;
+  }
+
+  p {
+    margin: 0.75rem 0 0;
+  }
+}
+
+.all-posts-link {
+  margin-top: 1.5rem;
+  text-align: center;
+}

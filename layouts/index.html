@@ -1,0 +1,24 @@
+{{ define "content" }}
+  {{ partial "home.html" . }}
+
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ with first 2 ($posts.ByDate.Reverse) }}
+    <section class="container recent-posts" aria-labelledby="latest-posts-title">
+      <h2 id="latest-posts-title">Latest posts</h2>
+      <div class="recent-posts-list">
+        {{ range . }}
+          <article class="recent-post">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with .Description }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary | plainify | truncate 180 }}</p>
+            {{ end }}
+          </article>
+        {{ end }}
+      </div>
+      <p class="all-posts-link"><a href="{{ "posts/" | relLangURL }}">View all posts →</a></p>
+    </section>
+  {{ end }}
+{{ end }}
