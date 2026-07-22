@@ -1,3 +1,4 @@
+baseURL = "https://lima3.dev/"
 locale = 'en-us'
 title = "lima3.dev"
 

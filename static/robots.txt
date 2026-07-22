@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lima3.dev/sitemap.xml
