@@ -2,23 +2,33 @@
 draft = false
 date = 2024-11-30T00:21:00Z
 title = 'This is the song that never ends'
+description = "The start of a homelab journal and a November 2024 snapshot of the systems running in it."
 authors = ["Zack"]
 categories = ["Homelab"]
 tags = ["homelab", "self-hosting", "unraid", "esxi", "home-assistant"]
 disableComments = true
 +++
 
+*This is a snapshot of the lab from November 2024, not a current inventory.*
 
-Cuz here we go again, starting a new blog. This is less about the blog itself and more about trying new stuff. 
+Cuz here we go again, starting a new blog. This is less about the blog itself and more about trying new stuff.
 
-I saw the idea of using Obsidian as a notes editor and publishing it with Hugo via GitHub to a site for semi automated posts. We will see how that goes.
+I saw the idea of using Obsidian as a notes editor and publishing it with Hugo via GitHub for semi-automated posts. We will see how that goes.
 
-I tend to start the project and never finish it. Maybe this time I'll try this as a journal of my ideas in my homelab. Currently, it's shut down for the week due to my in-laws being in town. My network closet heats up quickly with the door closed but it's too loud to keep open when they are here for a few days. 
+I tend to start projects and never finish them. Maybe this time I will use this as a journal for my homelab ideas instead of trying to make it a complete inventory.
 
-But back to the lab. Currently I'm running 2 hosts, one with ESXi and the other with Unraid. I am running only a few VMs, all Linux based. I do have vCenter running, just because I like the interface better. I have home assistant running as an appliance VM. I also have Ubiquiti, Unifi, and Zabbix. 
+## What was running then
 
-On the Unraid side, I have a bunch of docker containers. I have some running health checks, smtp relay, SyncThing, and Uptime Kuma, as well as a few others. 
+At the time, the lab was shut down for the week because my in-laws were in town. My network closet heats up quickly with the door closed, but it is too loud to keep open when they are here for a few days.
 
-I also have a few physical "servers". Namely, I have an old laptop running DNS services with Technitium DNS, providing ad blocking and malware blocking DNS to the whole network. I also have another old laptop running Plex, utilizing the mobile NVidia graphics card for transcoding. 
+Back to the lab: I was running two hosts, one with ESXi and the other with Unraid. I had a few Linux VMs, vCenter because I liked the interface better, and Home Assistant as an appliance VM. I also had Ubiquiti, UniFi, and Zabbix.
 
-My goals for my homelab are not really defined. I like to tinker with interesting projects. Previously, it was to have a place outside of production to test things for work, but my current employer has a test lab dedicated to stuff like that. Now, I do provide some services to my house, like DNS with ad blocking, but I'm the only one who uses the services most of the time.  
+On the Unraid side, I had a bunch of Docker containers: health checks, an SMTP relay, Syncthing, Uptime Kuma, and a few others.
+
+I also had a few physical "servers." One old laptop ran Technitium DNS and provided ad-blocking and malware-blocking DNS to the whole network. Another old laptop ran Plex and used its mobile NVIDIA graphics card for transcoding.
+
+## Why I keep doing this
+
+My goals for the homelab are not really defined. I like to tinker with interesting projects. Previously, it was a place outside production to test things for work, but my current employer has a dedicated test lab for that. Now I do provide a few services to the house, like DNS with ad blocking, but I am usually the only one using most of them.
+
+That is fine. The point is not to build a perfect setup. It is to have a place to try things and write down what I learn before I forget it.
