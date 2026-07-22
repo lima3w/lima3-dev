@@ -3,6 +3,8 @@ draft = false
 date = 2025-02-08T06:39:00Z
 title = 'Backups of backups of backups'
 authors = ["Zack"]
+categories = ["Homelab"]
+tags = ["backups", "restic", "duplicacy", "automation", "self-hosting"]
 disableComments = true
 +++
 

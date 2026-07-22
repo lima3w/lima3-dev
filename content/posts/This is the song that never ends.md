@@ -3,6 +3,8 @@ draft = false
 date = 2024-11-30T00:21:00Z
 title = 'This is the song that never ends'
 authors = ["Zack"]
+categories = ["Homelab"]
+tags = ["homelab", "self-hosting", "unraid", "esxi", "home-assistant"]
 disableComments = true
 +++
 
