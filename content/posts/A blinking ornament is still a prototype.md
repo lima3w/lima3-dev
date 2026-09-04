@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2026-09-04T15:01:52-05:00
 title = "A blinking ornament is still a prototype"
 description = "An August 2026 snapshot of turning a simple 2×AAA blinking-ornament idea into a first PCB fabrication release without pretending the physical board is already proven."
