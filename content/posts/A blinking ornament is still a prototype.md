@@ -11,6 +11,10 @@ disableComments = true
 
 *This is a snapshot of the design work I finished in August 2026. The fabrication package was accepted, but the physical board had not been tested yet, so this is not a finished-kit announcement.*
 
+![Front of the unpopulated purple first-prototype ornament PCB, showing the circular outline, hanging hole, and labeled component footprints.](/images/posts/ornament-555/pcb-front.jpg)
+
+*Front of the first prototype board, before assembly and electrical testing.*
+
 I wanted to make a small ornament that could also work as a beginner soldering kit: a board with a few visible parts, two AAA batteries, and three red LEDs that blink together. No microcontroller, no firmware, and no mystery black box. Just a timer and enough parts to make it feel like someone built something.
 
 That sounded like a simple project. It was simple in the way a lot of hardware projects are simple: the circuit idea fits in a few lines, and then the details start showing up.
