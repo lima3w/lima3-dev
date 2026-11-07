@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2026-11-06T15:01:20-06:00
 title = "The printer gets a vote"
 description = "A late-October 2026 snapshot of making a one-page community handout that still has to work after a black-and-white printer gets involved."
